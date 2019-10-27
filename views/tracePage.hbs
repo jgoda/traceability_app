@@ -161,7 +161,7 @@
                             </tr>
                             <tr>
                                 <td>Mixing weights</td>
-                                <td></td>
+                                <td><a onclick="askPrompt()">Download</a></td>
                                 <td>John Doe</td>
                             </tr>
                             <tr>
@@ -324,6 +324,15 @@
     </svg>
 </div>
 
+<script>
+    function askPrompt() {
+        var person = prompt("Please enter password", "");
+
+        if (person && person == 12345) {
+            window.open('/downloadTracePage', '_blank');
+        }
+    }
+</script>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
