@@ -20,5 +20,9 @@ router.get('/wheat', function (req, res) {
     res.render('wheat', {});
 
 });
+router.get('/downloadTracePage', function (req, res) {
+    res.download(__dirname+'/../public/pdfs/final.pdf');
+
+});
 
 module.exports = router;
