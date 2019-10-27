@@ -24,6 +24,7 @@ app.use(express.static('public/css'));
 app.use(express.static('public/scss'));
 app.use(express.static('public/fonts'));
 app.use(express.static('public/js'));
+app.use(express.static('public/pdfs'));
 
 app.use('/', indexRouter);
 

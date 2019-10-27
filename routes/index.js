@@ -16,4 +16,9 @@ router.get('/tracePage', function (req, res) {
 
 });
 
+router.get('/wheat', function (req, res) {
+    res.render('wheat', {});
+
+});
+
 module.exports = router;
