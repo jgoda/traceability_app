@@ -86,7 +86,7 @@
                 </tr>
                 <tr>
                     <th>Product certificate</th>
-                    <td><a href="/downloadTracePage" target="_blank">Download</a></td>
+                    <td><a href="/downloadFinalCertificate" target="_blank">Download</a></td>
                 </tr>
                 <tr>
                     <th>Manufacturer certifications</th>
@@ -136,17 +136,17 @@
                             <tr>
                                 <td>Wheat</td>
                                 <td><a href="/wheat">W12345</a></td>
-                                <td>Download</td>
+                                <td><a href="/downloadWheatCertificate" target="_blank">Download</a></td>
                             </tr>
                             <tr>
                                 <td>Soy</td>
                                 <td>S34567</td>
-                                <td>Download</td>
+                                <td><a href="/downloadSoyCertificate" target="_blank">Download</a></td>
                             </tr>
                             <tr>
                                 <td>Yellow Pea</td>
                                 <td>YP4567</td>
-                                <td>Download</td>
+                                <td><a href="/downloadYellowPeaCertificate" target="_blank">Download</a></td>
                             </tr>
                         </table>
                     </div>
@@ -161,17 +161,12 @@
                             </tr>
                             <tr>
                                 <td>Mixing weights</td>
-                                <td><a onclick="askPrompt()">Download</a></td>
+                                <td><a href="" onclick="askPrompt()">Download</a></td>
                                 <td>John Doe</td>
                             </tr>
                             <tr>
-                                <td>Mixing time</td>
-                                <td></td>
-                                <td>Sensor X1</td>
-                            </tr>
-                            <tr>
                                 <td>Mixing temperature</td>
-                                <td></td>
+                                <td><a href="/downloadMixingTempCertificate" target="_blank">Download</a></td>
                                 <td>Sensor X2</td>
                             </tr>
                         </table>
@@ -198,17 +193,17 @@
                             <tr>
                                 <td>Step1_product</td>
                                 <td>AABBCC</td>
-                                <td></td>
+                                <td>Not Applicable</td>
                             </tr>
                             <tr>
                                 <td>Plastic bottle</td>
                                 <td>PB8978</td>
-                                <td></td>
+                                <td><a href="/downloadPlasticBottleCertificate" target="_blank">Download</a></td>
                             </tr>
                             <tr>
                                 <td>Carton</td>
                                 <td>C56778</td>
-                                <td></td>
+                                <td><a href="/downloadCartonCertificate" target="_blank">Download</a></td>
                             </tr>
                         </table>
                     </div>
@@ -233,12 +228,12 @@
                             </tr>
                             <tr>
                                 <td>Transit tracking</td>
-                                <td></td>
+                                <td><a href="/downloadTracking" target="_blank">Download</a></td>
                                 <td>GPS_sensor X3</td>
                             </tr>
                             <tr>
                                 <td>Distributor storage</td>
-                                <td></td>
+                                <td><a href="/downloadDistributorStorageCertificate" target="_blank">Download</a></td>
                                 <td>Sensor X4</td>
                             </tr>
                             <tr>
@@ -329,7 +324,7 @@
         var person = prompt("Please enter password", "");
 
         if (person && person == 12345) {
-            window.open('/downloadTracePage', '_blank');
+            window.open('/downloadMixingWeightCertificate', '_blank');
         }
     }
 </script>
