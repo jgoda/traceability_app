@@ -2,12 +2,12 @@
     <title>TechieAmigos - Food traceability platform</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-    
+
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
@@ -56,11 +56,11 @@
           </div>
           <div class="col-lg-2 col"></div>
           <div class="col-lg-4 col-md-6 mt-0 mt-md-5 d-flex">
-          	<form action="#" class="request-form ftco-animate">
+          	<form action="/tracePage" class="request-form ftco-animate" method="get">
           		<h2>Trace your food</h2>
 	    				<div class="form-group">
 	    					<label for="" class="label">Batch number (*)</label>
-	    					<input type="text" class="form-control" placeholder="Batch number">
+	    					<input type="text" name="batchNumber" class="form-control" placeholder="Batch number" required>
 	    				</div>
 	    				<div class="form-group">
 	    					<label for="" class="label">Purchase location (optional)</label>
@@ -76,7 +76,7 @@
 	                <input type="text" class="form-control" id="time_pick" placeholder="Time">
 	              </div>
               </div>
-              
+
 	            <div class="form-group">
 	              <input type="submit" value="Trace my food" class="btn btn-primary py-3 px-4">
 	            </div>
@@ -85,7 +85,7 @@
         </div>
       </div>
     </div>
-	
+
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
@@ -113,7 +113,7 @@
               </ul>
             </div>
           </div>
-         
+
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -137,8 +137,8 @@
         </div>
       </div>
     </footer>
-    
-  
+
+
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
@@ -159,5 +159,5 @@
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
   <script src="js/main.js"></script>
-    
+
   </body>

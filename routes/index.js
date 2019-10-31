@@ -12,7 +12,8 @@ router.get('/manufacturers', function (req, res) {
 });
 
 router.get('/tracePage', function (req, res) {
-    res.render('tracePage', {});
+  const { batchNumber } = req.query;
+  res.render('tracePage', {batchNumber});
 
 });
 
