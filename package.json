@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/jgoda/traceability#readme",
   "dependencies": {
-    "config": "^3.2.2",
+    "config": "^3.3.8",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "hbs": "^4.0.4",
